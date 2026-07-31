@@ -1,13 +1,36 @@
 <html>
 <head>
-    <title>WITM</title>
+    <title>ANEMOIACS</title>
+
+body {
+    margin: 0;
+    background-color: black;
+    color: white;
+    min-height: 100vh;
+}
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Beau+Rivage&display=swap" rel="stylesheet">
+    
 </head>
 <body>
 
-<h1>If you (don't) DIE, I will (never) HEAL</h1>
+<h1 style="font-family: 'Beau Rivage', cursive; color: red">
+BIENVENUE CHEZ ANEMOIACS
+</h1>
 <br>
-<audio controls>
-  <source src="IYDIWH.mp3" type="audio/mpeg">
-</audio>
+<img src="zob.png" style="width: 100%; height: auto; display: block;">
 <br>
-<h1>160 BPM   7/4 TIME SIGNATURE</h1>
+<form>
+    <label for="nom">Nom :</label><br>
+    <input type="text" id="nom" name="nom"><br><br>
+
+    <label for="email">Email :</label><br>
+    <input type="email" id="email" name="email"><br><br>
+
+    <label for="message">Message :</label><br>
+    <textarea id="message" name="message"></textarea><br><br>
+
+    <button type="submit">Envoyer</button>
+</form>
